@@ -21,7 +21,7 @@ for i in range(no_of_test_cases):
     uid = input()
     UPPER_COUNT,DIGIT_COUNT = 0,0
 
-    if dis(uid) < 10 or dis(uid) > 10 or not uid.isalnum():
+    if dis(uid) < 10 or dis(uid) > 10 or len(uid) > 10 or not uid.isalnum():
         print('Invalid')
 
     else:
