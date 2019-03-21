@@ -1,4 +1,5 @@
 # The Captain's Room
+# Using the collections class here
 from collections import Counter
 k = int(input())
 rooms = input().split()
