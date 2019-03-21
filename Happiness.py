@@ -4,14 +4,19 @@
 3 1
 5 7
 """
-n,m = input().split()
-n,m = int(n),int(m)
-print(type(n),type(m))
+# Input handling section
+n,m    = map(int,input().split())
+line_2 = map(int,input().split())
+line_3 = map(int,input().split())
+line_4 = map(int,input().split())
+Happiness = 0
+for i in line_2:
+    if i in line_3:
+        Happiness += 1
+    if i in line_4:
+        Happiness -+ 1
 
-a, b = [], []
-n_list = input().split ()
-m_list = input().split()
+print(Happiness)
 
-print(n_list)
-print(m_list)
 
+# ------------------------------------------------
