@@ -16,4 +16,5 @@ for i in line:
 
   # I am doing the substitute operation twice for the consecutive replace
   # like && && && or && && || ||
+  # In a single statement replacing twice one for and other for or   
 
